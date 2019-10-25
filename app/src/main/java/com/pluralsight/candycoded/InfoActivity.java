@@ -25,8 +25,10 @@ public class InfoActivity extends AppCompatActivity {
 
     }
 
-    /* Create method to Launch the Google Maps Activity
-        & connect method to TextView ClickListener */
+    /*
+        Create method to Launch the Google Maps Activity
+        & connect method to TextView ClickListener
+    */
     public void createMapIntent(View view) {
 
         // Create a URI for the address with a geo string of the address.
@@ -44,8 +46,10 @@ public class InfoActivity extends AppCompatActivity {
         }
     }
 
-    /* Create method to Launch the Phone Activity
-        & connect method to TextView ClickListener */
+    /*
+        Create method to Launch the Phone Activity
+        & connect method to TextView ClickListener
+    */
     public void createPhoneIntent(View view) {
 
         // Create Intent with ACTION_DIAL as parameter
